@@ -82,11 +82,11 @@ async def start(bot, cmd):
         invite_link = await bot.create_chat_invite_link(int(AUTH_CHANNEL))
         await bot.send_message(
             chat_id=cmd.from_user.id,
-            text="**Please Join My Updates Channel to use this Bot!**",
+            text="**എൻ്റെ ചാനലിൽ ജോയിൻ ചെയ്താലേ എന്നെ ഉപയോഗിക്കാൻ കഴിയൂ**",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🤖 Join Updates Channel", url=invite_link.invite_link)
+                        InlineKeyboardButton("🥰എൻ്റെ ചാനൽ🥰", url=invite_link.invite_link)
                     ]
                 ]
             )
@@ -100,7 +100,7 @@ async def start(bot, cmd):
                 [
                     [
                         InlineKeyboardButton("Search Here", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("Other Bots", url="https://t.me/subin_works/122")
+                        InlineKeyboardButton("https://t.me/Douglas_Works/14", url="https://t.me/subin_works/122")
                     ],
                     [
                         InlineKeyboardButton("About", callback_data="about")
@@ -192,7 +192,7 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('Update Channel', url='https://t.me/subin_works'),
+            InlineKeyboardButton('Update Channel', url='https://t.me/Douglas_Works'),
             InlineKeyboardButton('Source Code', url='https://github.com/subinps/Media-Search-bot')
         ]
         ]
