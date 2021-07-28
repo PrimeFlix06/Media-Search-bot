@@ -59,7 +59,7 @@ async def filter(client, message):
                     [InlineKeyboardButton(text=f"{filename}",callback_data=f"subinps#{file_id}")]
                     )
         else:
-            await client.send_sticker(chat_id=message.from_user.id, sticker='CAADBQADMwIAAtbcmFelnLaGAZhgBwI')
+            await client.send_sticker(chat_id=message.from_user.id, sticker='CAADBQADgQMAAhr_EVTvzu4UxRkTvQI')
             return
 
         if not btn:
@@ -269,11 +269,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "about":
             buttons = [
                 [
-                    InlineKeyboardButton('Update Channel', url='https://t.me/subin_works'),
-                    InlineKeyboardButton('Source Code', url='https://github.com/subinps/Media-Search-bot')
+                    InlineKeyboardButton('Update Channel', url='https://t.me/Douglas_Works'),
+                    InlineKeyboardButton('Source Code', url='https://t.me/Uvva_IppoKittum_Nokkiyirunno/5')
                 ]
                 ]
-            await query.message.edit(text="<b>Developer : <a href='https://t.me/subinps_bot'>SUBIN</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://github.com/subinps/Media-Search-bot'>Click here</a>\nUpdate Channel : <a href='https://t.me/subin_works'>XTZ Bots</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+            await query.message.edit(text="<b>Developer : <a href='https://t.me/Username_Idarilla'>DOUGLAS</a>\nLanguage : <code>MALAYALAM</code>\nBIG FAN : <a href='https://telegra.ph/file/40274dfccb4ada872eec7.jpg'</a>\nSource Code : <a href='https://t.me/Uvva_IppoKittum_Nokkiyirunno/5'>Click here</a>\nChannel : <a href='https://t.me/cinema_club_channel'>സിനിമ ക്ലബ്</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
 
 
@@ -294,8 +294,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('More Bots', url='https://t.me/subin_works/122'),
-                        InlineKeyboardButton('Update Channel', url='https://t.me/subin_works')
+                        InlineKeyboardButton('Share Me', url='https://t.me/share/url?url=%E0%B4%B8%E0%B4%BF%E0%B4%A8%E0%B4%BF%E0%B4%AE%E0%B4%95%E0%B4%B3%E0%B5%81%E0%B4%82%20%E0%B4%AA%E0%B5%81%E0%B4%B8%E0%B5%8D%E0%B4%A4%E0%B4%95%E0%B4%99%E0%B5%8D%E0%B4%99%E0%B4%B3%E0%B5%81%E0%B4%82%20%E0%B4%B8%E0%B5%97%E0%B4%9C%E0%B4%A8%E0%B5%8D%E0%B4%AF%E0%B4%AE%E0%B4%BE%E0%B4%AF%E0%B4%BF%20%E0%B4%A1%E0%B5%97%E0%B5%BA%E0%B4%B2%E0%B5%8B%E0%B4%A1%E0%B5%8D%20%E0%B4%9A%E0%B5%86%E0%B4%AF%E0%B5%8D%E0%B4%AF%E0%B5%81%E0%B4%B5%E0%B4%BE%E0%B5%BB%20%E0%B4%92%E0%B4%B0%E0%B5%81%20%E0%B4%B8%E0%B4%82%E0%B4%B5%E0%B4%BF%E0%B4%A7%E0%B4%BE%E0%B4%A8%E0%B4%82.%0A%E0%B4%9E%E0%B4%BE%E0%B5%BB%20%E0%B4%87%E0%B4%A4%E0%B5%8D%20%E0%B4%89%E0%B4%AA%E0%B4%AF%E0%B5%8B%E0%B4%97%E0%B4%BF%E0%B4%95%E0%B5%8D%E0%B4%95%E0%B5%81%E0%B4%A8%E0%B5%8D%E0%B4%A8%E0%B5%81.%20%0A%E0%B4%B5%E0%B4%B3%E0%B4%B0%E0%B5%86%E0%B4%AF%E0%B4%A7%E0%B4%BF%E0%B4%95%E0%B4%82%20%E0%B4%89%E0%B4%AA%E0%B4%95%E0%B4%BE%E0%B4%B0%E0%B4%AA%E0%B5%8D%E0%B4%B0%E0%B4%A6%E0%B4%AE%E0%B4%BE%E0%B4%A3%E0%B5%8D%20%E0%B4%88%20%E0%B4%B8%E0%B4%82%E0%B4%B5%E0%B4%BF%E0%B4%A7%E0%B4%BE%E0%B4%A8%E0%B4%82.%20%0A%0A%E0%B4%8E%E0%B4%A8%E0%B5%8D%E0%B4%A4%E0%B5%86%E0%B4%99%E0%B5%8D%E0%B4%95%E0%B4%BF%E0%B4%B2%E0%B5%81%E0%B4%82%20%E0%B4%B8%E0%B4%82%E0%B4%B6%E0%B4%AF%E0%B4%82%20%E0%B4%89%E0%B4%A3%E0%B5%8D%E0%B4%9F%E0%B5%86%E0%B4%99%E0%B5%8D%E0%B4%95%E0%B4%BF%E0%B5%BD%20%5B%E0%B4%87%E0%B4%A4%E0%B5%8D%20%E0%B4%B6%E0%B5%8D%E0%B4%B0%E0%B4%A6%E0%B5%8D%E0%B4%A7%E0%B4%BF%E0%B4%95%E0%B5%8D%E0%B4%95%E0%B5%81%E0%B4%95%5D%28https%3A//t.me/Douglas_Works/25%29%0A%0A%E0%B4%87%E0%B4%AA%E0%B5%8D%E0%B4%AA%E0%B5%8B%E0%B5%BE%E0%B4%A4%E0%B5%8D%E0%B4%A4%E0%B4%A8%E0%B5%8D%E0%B4%A8%E0%B5%86%20%E0%B4%89%E0%B4%AA%E0%B4%AF%E0%B5%8B%E0%B4%97%E0%B4%BF%E0%B4%9A%E0%B5%8D%E0%B4%9A%E0%B5%81%E0%B4%A8%E0%B5%8B%E0%B4%95%E0%B5%8D%E0%B4%95%E0%B5%82%20%3A-%20%5B%F0%9F%91%89CLICK%20HERE%F0%9F%91%88%5D%28https%3A//t.me/Kilipoyabot%29'),
+                        InlineKeyboardButton('Update Channel', url='https://t.me/Douglas_Works')
                     ]
                     ]
                 
@@ -326,8 +326,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{title}"
                 buttons = [
                     [
-                        InlineKeyboardButton('More Bots', url='https://t.me/subin_works/122'),
-                        InlineKeyboardButton('Update Channel', url='https://t.me/subin_works')
+                        InlineKeyboardButton('Share Me', url='https://t.me/share/url?url=%E0%B4%B8%E0%B4%BF%E0%B4%A8%E0%B4%BF%E0%B4%AE%E0%B4%95%E0%B4%B3%E0%B5%81%E0%B4%82%20%E0%B4%AA%E0%B5%81%E0%B4%B8%E0%B5%8D%E0%B4%A4%E0%B4%95%E0%B4%99%E0%B5%8D%E0%B4%99%E0%B4%B3%E0%B5%81%E0%B4%82%20%E0%B4%B8%E0%B5%97%E0%B4%9C%E0%B4%A8%E0%B5%8D%E0%B4%AF%E0%B4%AE%E0%B4%BE%E0%B4%AF%E0%B4%BF%20%E0%B4%A1%E0%B5%97%E0%B5%BA%E0%B4%B2%E0%B5%8B%E0%B4%A1%E0%B5%8D%20%E0%B4%9A%E0%B5%86%E0%B4%AF%E0%B5%8D%E0%B4%AF%E0%B5%81%E0%B4%B5%E0%B4%BE%E0%B5%BB%20%E0%B4%92%E0%B4%B0%E0%B5%81%20%E0%B4%B8%E0%B4%82%E0%B4%B5%E0%B4%BF%E0%B4%A7%E0%B4%BE%E0%B4%A8%E0%B4%82.%0A%E0%B4%9E%E0%B4%BE%E0%B5%BB%20%E0%B4%87%E0%B4%A4%E0%B5%8D%20%E0%B4%89%E0%B4%AA%E0%B4%AF%E0%B5%8B%E0%B4%97%E0%B4%BF%E0%B4%95%E0%B5%8D%E0%B4%95%E0%B5%81%E0%B4%A8%E0%B5%8D%E0%B4%A8%E0%B5%81.%20%0A%E0%B4%B5%E0%B4%B3%E0%B4%B0%E0%B5%86%E0%B4%AF%E0%B4%A7%E0%B4%BF%E0%B4%95%E0%B4%82%20%E0%B4%89%E0%B4%AA%E0%B4%95%E0%B4%BE%E0%B4%B0%E0%B4%AA%E0%B5%8D%E0%B4%B0%E0%B4%A6%E0%B4%AE%E0%B4%BE%E0%B4%A3%E0%B5%8D%20%E0%B4%88%20%E0%B4%B8%E0%B4%82%E0%B4%B5%E0%B4%BF%E0%B4%A7%E0%B4%BE%E0%B4%A8%E0%B4%82.%20%0A%0A%E0%B4%8E%E0%B4%A8%E0%B5%8D%E0%B4%A4%E0%B5%86%E0%B4%99%E0%B5%8D%E0%B4%95%E0%B4%BF%E0%B4%B2%E0%B5%81%E0%B4%82%20%E0%B4%B8%E0%B4%82%E0%B4%B6%E0%B4%AF%E0%B4%82%20%E0%B4%89%E0%B4%A3%E0%B5%8D%E0%B4%9F%E0%B5%86%E0%B4%99%E0%B5%8D%E0%B4%95%E0%B4%BF%E0%B5%BD%20%5B%E0%B4%87%E0%B4%A4%E0%B5%8D%20%E0%B4%B6%E0%B5%8D%E0%B4%B0%E0%B4%A6%E0%B5%8D%E0%B4%A7%E0%B4%BF%E0%B4%95%E0%B5%8D%E0%B4%95%E0%B5%81%E0%B4%95%5D%28https%3A//t.me/Douglas_Works/25%29%0A%0A%E0%B4%87%E0%B4%AA%E0%B5%8D%E0%B4%AA%E0%B5%8B%E0%B5%BE%E0%B4%A4%E0%B5%8D%E0%B4%A4%E0%B4%A8%E0%B5%8D%E0%B4%A8%E0%B5%86%20%E0%B4%89%E0%B4%AA%E0%B4%AF%E0%B5%8B%E0%B4%97%E0%B4%BF%E0%B4%9A%E0%B5%8D%E0%B4%9A%E0%B5%81%E0%B4%A8%E0%B5%8B%E0%B4%95%E0%B5%8D%E0%B4%95%E0%B5%82%20%3A-%20%5B%F0%9F%91%89CLICK%20HERE%F0%9F%91%88%5D%28https%3A//t.me/Kilipoyabot%29'),
+                        InlineKeyboardButton('Update Channel', url='https://t.me/Douglas_Works')
                     ]
                     ]
                 
@@ -343,4 +343,4 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "pages":
             await query.answer()
     else:
-        await query.answer("കൌതുകും ലേശം കൂടുതൽ ആണല്ലേ👀",show_alert=True)
+        await query.answer("നീ ഏതാ..?",show_alert=True)
