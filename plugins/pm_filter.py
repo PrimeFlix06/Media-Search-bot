@@ -26,11 +26,11 @@ async def filter(client, message):
         except UserNotParticipant:
             await client.send_message(
                 chat_id=message.from_user.id,
-                text="**Please Join My Updates Channel to use this Bot!**",
+                text="**എൻ്റെ ചാനലിൽ ജോയിൻ ചെയ്താലേ എന്നെ ഉപയോഗിക്കാൻ കഴിയൂ!**",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("🤖 Join Updates Channel", url=invite_link.invite_link)
+                            InlineKeyboardButton("🥰എൻ്റെ ചാനൽ🥰", url=invite_link.invite_link)
                         ]
                     ]
                 ),
