@@ -196,4 +196,4 @@ async def bot_info(bot, message):
             InlineKeyboardButton('Source Code', url='https://t.me/Uvva_IppoKittum_Nokkiyirunno/5')
         ]
         ]
-    await message.reply(text="<b>Developer : <a href='https://t.me/Username_Idarilla'>DOUGLAS</a>\nLanguage : <code>MALAYALAM</code>\nBIG FAN : <a href='https://telegra.ph/file/40274dfccb4ada872eec7.jpg'</a>\nSource Code : <a href='https://t.me/Uvva_IppoKittum_Nokkiyirunno/5'>Click here</a>\nChannel : <a href='https://t.me/subin_works'>XTZ Bots</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+    await message.reply(text="<b>Developer : <a href='https://t.me/Username_Idarilla'>DOUGLAS</a>\nLanguage : <code>MALAYALAM</code>\nBIG FAN : <a href='https://telegra.ph/file/40274dfccb4ada872eec7.jpg'</a>\nSource Code : <a href='https://t.me/Uvva_IppoKittum_Nokkiyirunno/5'>Click here</a>\nChannel : <a href='https://t.me/cinema_club_chat'>സിനിമ ക്ലബ്</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
