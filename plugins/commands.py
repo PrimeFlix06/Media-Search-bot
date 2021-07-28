@@ -67,7 +67,7 @@ async def start(bot, cmd):
                 buttons = [
                     [
                         InlineKeyboardButton('Search again', switch_inline_query_current_chat=''),
-                        InlineKeyboardButton('Share Me', url='https://t.me/subin_works/122')
+                        InlineKeyboardButton('Share Me', url='https://t.me/share/url?url=An%20Inline%20/%20PM%20Bot%20for%20search%20%26%20download%20your%20favourite%20contents%F0%9F%98%87%0AI%27m%20using%20this%20bot..%20It%20is%20really%20useful..%0A%0ATry%20Now%20by%20clicking%20here%20%20%3A-%20%5BCLICK%20HERE%5D%28https%3A//t.me/Kilipoyabot%29')
                     ]
                     ]
                 await bot.send_cached_media(
